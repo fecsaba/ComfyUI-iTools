@@ -1,0 +1,72 @@
+# It is recommended not to modify this file,
+# as it serves as the initialization file for the node.
+#
+# Instead, create a copy, place it in the same folder,
+# and the iTools Prompt Styler node will read all your style files from there.
+#
+# Ensure that the formatting is kept the same as in this file.
+# Indents in YAML are critical. Ensure proper indentation, as incorrect spacing can cause errors.
+#
+# Best approach is to copy a block of name, negative_prompt and a prompt and then replace their values
+# Note that your text_positive will be added in this part {prompt}
+
+- name: none
+  negative_prompt: ''
+  prompt: ''
+
+styles:
+  - name: "Romantic Couple Moonlight"
+    negative_prompt: "ugly, deformed, blurry, low quality, text, watermark"
+    prompt: "A beautiful couple sharing a romantic kiss under the moonlight, surrounded by red roses, soft light, pastel colors, photorealistic style"
+
+  - name: "Playful Cartoon Couple"
+    negative_prompt: "realistic, detailed, shadows, ugly, deformed, text, watermark"
+    prompt: "A cute cartoon couple holding hands with heart-shaped balloons, vibrant colors, playful style"
+
+  - name: "Elegant Vintage Dinner"
+    negative_prompt: "modern, bright, sharp, detailed, text, watermark"
+    prompt: "A vintage-style photo of a couple enjoying a romantic dinner by candlelight, warm tone, elegant setting"
+  
+  - name: "Magical Fantasy Scene"
+    negative_prompt: "realistic, mundane, sharp, detailed, text, watermark"
+    prompt: "A magical fantasy scene with angels and hearts floating in the sky, dreamy, soft light, watercolor painting style"
+    
+  - name: "Minimalist Abstract Heart"
+    negative_prompt: "complex, detailed, realistic, shadows, text, watermark"
+    prompt: "An abstract heart shape in red and pink tones with minimalist style, geometric elements"
+  
+  - name: "Soft Watercolor Roses"
+    negative_prompt: "sharp, clear, detailed, realistic, text, watermark"
+    prompt: "A delicate watercolor painting of blooming red roses, soft lighting, romantic atmosphere"
+
+  - name: "Sweet Teddy Bear Gift"
+    negative_prompt: "ugly, deformed, blurry, low quality, human, text, watermark"
+    prompt: "A cute teddy bear holding a heart-shaped gift, surrounded by pink and white flowers, soft focus, adorable style"
+
+  - name: "Loving Embrace"
+    negative_prompt: "ugly, deformed, blurry, low quality, text, watermark"
+    prompt: "A couple sharing a loving embrace, surrounded by glowing hearts, warm light, intimate mood"
+
+  - name: "Charming Valentine's Letter"
+    negative_prompt: "ugly, deformed, blurry, low quality, text, watermark"
+    prompt: "A vintage-style Valentine's letter tied with a ribbon, surrounded by scattered rose petals, soft lighting, nostalgic atmosphere"
+
+  - name: "Festive Heart Confetti"
+    negative_prompt: "ugly, deformed, blurry, low quality, text, watermark, dark"
+    prompt: "Heart-shaped confetti falling in the air, vibrant colors, festive style, bright light"
+
+  - name: "Retro Diner Romance"
+    negative_prompt: "modern, sharp, detailed, realistic, text, watermark"
+    prompt: "A couple in a retro diner booth, sharing a milkshake, classic style, nostalgic vibe, warm lighting"
+
+  - name: "Serene Beach Sunset"
+    negative_prompt: "ugly, deformed, blurry, low quality, text, watermark, cloudy"
+    prompt: "A couple walking hand-in-hand on a serene beach at sunset, calm waves, warm golden light, peaceful atmosphere"
+
+  - name: "Cozy Fireplace Evening"
+    negative_prompt: "ugly, deformed, blurry, low quality, text, watermark, bright"
+    prompt: "A couple relaxing by a cozy fireplace, soft blanket, warm lighting, intimate setting, hot chocolate on the table"
+
+  - name: "Stargazing Love"
+    negative_prompt: "ugly, deformed, blurry, low quality, text, watermark, daylight"
+    prompt: "A couple stargazing on a hilltop at night, clear starry sky, soft glow, romantic scene, intimate"
